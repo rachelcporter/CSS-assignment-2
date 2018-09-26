@@ -1,16 +1,73 @@
 /* you will add css rules for element selectors and IDs */
-
-
+html {
+box-sizing: border-box;
+}
+*{
+  box-sizing:inherit;
+}
 /* you may add to or change the body rule */
 body {
     font-family: sans-serif;
-    color: #fff;
+    color: #000;
     background: #000;
+    margin: 0;
+}
+h1 {
+  color: #fff;
 }
 img {
     max-width: 100%; /* DO NOT delete or change this line */
 }
-
+header {
+  padding: 1rem;
+  margin: 0;
+  margin-bottom: 1rem;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+nav ul li{
+  margin: 0;
+  margin-left: 1rem;
+}
+article {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 0;
+padding: 2rem 0;
+}
+#cougar {
+  background: #FFBD82;
+}
+#lion {
+  background: #B26219;
+}
+#tiger {
+  background: #FFD5AE;
+}
+section {
+  max-width: 600px;
+}
+.text {
+background: #fff;
+font-size: 1rem;
+line-height: 1.5em;
+align-items: center;
+padding: 2rem;
+}
+h2{
+text-align: center;
+}
+footer p {
+  color: #fff;
+  text-align: center;
+}
 /* ----- SUGGESTED COLORS -----
     - ARTICLES
     B26219 cinnamon
@@ -39,4 +96,10 @@ a {
 }
 a:hover {
     color: #82E8FF;
+}
+nav a {
+    color: #FF8333;
+}
+nav a:hover {
+    color: #FF66DB;
 }
