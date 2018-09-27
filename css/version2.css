@@ -1,0 +1,103 @@
+/* you will add css rules for element selectors and IDs */
+html {
+box-sizing: border-box;
+}
+*{
+  box-sizing:inherit;
+}
+/* you may add to or change the body rule */
+body {
+    font-family: sans-serif;
+    color: #000;
+    background: #000;
+    margin: 0;
+}
+h1 {
+  color: #fff;
+}
+img {
+    max-width: 100%; /* DO NOT delete or change this line */
+}
+header {
+  padding: 1rem;
+  margin: 0;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+nav ul li{
+  margin: 0;
+  margin-left: 1rem;
+}
+article {
+display: flex;
+align-items: flex-start;
+margin: 0;
+padding: 2rem 2rem;
+}
+#cougar {
+  background: #FFBD82;
+}
+#lion {
+  background: #B26219;
+}
+#tiger {
+  background: #FFD5AE;
+}
+section {
+  max-width: 600px;
+}
+.text {
+font-size: 1rem;
+line-height: 1.5em;
+align-items: center;
+padding: 0 2rem;
+}
+h2{
+text-align: left;
+margin: 0;
+}
+footer p {
+  color: #fff;
+  text-align: center;
+}
+/* ----- SUGGESTED COLORS -----
+    - ARTICLES
+    B26219 cinnamon
+    FFD5AE pale peach
+    FFBD82 peach
+    - LINKS
+    379CB2 medium blue
+    82E8FF light blue
+
+   ----- NEUTRAL COLORS you may use also -----
+   000 black
+   333 charcoal
+   666 dark medium gray
+   999 light medium gray
+   ccc pale gray
+   fff white
+*/
+
+
+/* --- link pseudo classes --- */
+/* --- you may ADD other link pseudo classes for
+        specific articles or sections to improve CONTRAST --- */
+
+a {
+    color: #379CB2;
+}
+a:hover {
+    color: #82E8FF;
+}
+nav a {
+    color: #FF8333;
+}
+nav a:hover {
+    color: #FF66DB;
+}
